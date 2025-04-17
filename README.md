@@ -38,7 +38,7 @@ A real-time fire detection system using both classical image processing **(HSV c
     
     ├─ best.pt                       # Trained YOLO model
     
-    ├─ room_fire.mp4                 # Sample video input
+    ├─ requirements.txt              # Required Packages
     
     ├─ hse_photo.png                 # HSE photo for better understanding
     
