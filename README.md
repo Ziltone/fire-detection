@@ -19,7 +19,7 @@ A real-time fire detection system using both classical image processing **(HSV c
 📸 Project Files
 * `fire_detect_hse.py` — HSV-based fire detection.
 
-* `fire_detect_yolo.py` — Fire detection using YOLO model.
+* `fire_detection_yolo.py` — Fire detection using YOLO model.
 
 * `test_camera.py` — Checks if the camera is functioning.
 
@@ -30,14 +30,16 @@ A real-time fire detection system using both classical image processing **(HSV c
     fire-detection/
 
     
-    ├─ fire_detect_hse.py         # HSV-based fire detection
+    ├─ fire_detect_hse.py            # HSV-based fire detection
     
-    ├─ fire_yolo_detect.py        # YOLOv8-based fire detection
+    ├─ fire_detection_yolo.py        # YOLOv8-based fire detection
+
+    ├─ test_camera.py                # Camera Testing
     
-    ├─ best.pt                    # Trained YOLO model
+    ├─ best.pt                       # Trained YOLO model
     
-    ├─ room_fire.mp4              # Sample video input
+    ├─ room_fire.mp4                 # Sample video input
     
-    ├─ hse_illustration.jpg       # HSE photo for better understanding
+    ├─ hse_photo.png                 # HSE photo for better understanding
     
-    ├─ README.md                  # Project overview
+    ├─ README.md                     # Project overview
