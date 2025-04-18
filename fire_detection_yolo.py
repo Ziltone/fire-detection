@@ -4,7 +4,7 @@ import cv2
 # downlaoded the Ml model named "best.pt".
 # dataset used from roboflow, can also ur own model.
 
-model = YOLO(r"D:/Study Stuff/Nerd Stuff/github_pages/fire-detection/best.pt")  # if not working try with the entire path
+model = YOLO("best.pt")  # if not working try with the entire path
 
 cap = cv2.VideoCapture(0)
 # source - cameras(0,1,2,3...) or use video files too.
